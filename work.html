@@ -6,110 +6,28 @@
 	<title>Nome</title>
 	<!-- Bootstrap -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-		<style>
-	.row-fluid {
-		max-width: 980px;
-		margin: 0px auto;
-	}
-	.blok1 {
-		height: 200px;
-		background: #000;
-	}
-	.blok2 {
-		margin-top: 20px;
-		margin-left: 30px;
-	}
-	.nav {
-		float: right;
-		font-size: 17.2pt;
-	}
-	.nav li {
-		text-align: right;
-		margin-top: 30px;
-	}
-	.left {
-		height: 100%;
-		position: fixed;
-	}
-	.picture {
-		position: absolute;
-	}
-	.blur img {
-		-webkit-transition: all 0.5s ease;
-		-moz-transition: all 0.5s ease;
-		-o-transition: all 0.5s ease;
-		-ms-transition: all 0.5s ease;
-		transition: all 0.5s ease;
-	}
-	.blur img:hover {
-		filter: progid: DXImageTransform.Microsoft.Alpha(opacity=80); /* IE */ 
-		filter: alpha(opacity=80); /* IE 5.5+*/ 
-		-moz-opacity: 0.8; /* Mozilla 1.6 */ 
-		-khtml-opacity: 0.8; /* Konqueror 3.1, Safari 1.1 */ 
-		opacity: 0.8; /* Mozilla 1.7b +, Firefox 0.9 +, Safari 1.2+, Opera 9 */ 
-	}
-	.text {
-		width: auto;
-		height: auto;
-		position: absolute;
-		bottom: 15px;
-		padding-left: 15px;
-	}
-	.menu a {
-		padding-top: 35px;
-		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-		font-size: 13pt;
-		color: #bfbfbf;
-		float: right;
-		text-align: right;
-		margin-left: 15px;
-	}
-	.menu a:hover {
-		color: #000;
-		text-decoration: none;
-	}
-	.footer {
-		height: 184px;
-		background: #000;
-		margin-top: 20px;
-	}
-	.menu-footer a {
-		opacity: 0.5;
-		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-		font-size: 10pt;
-		color: #fff;
-		float: left;
-		text-align: left;
-		margin-right: 15px;
-	}	
-	.menu-footer a:hover{
-		opacity:1;
-		text-decoration:none;
-	}
-	.socials a:hover img:hover{
-		opacity:1;
-	}
-	.socials a img{
-		opacity: 0.5;
-		padding-top: 75px;
-		height: 31px;
-		width: 31px;
-	}
-	</style>
+	<link href="css/style.css" rel="stylesheet">
+		
 	</head>
 <body>
 	
 <!-- SITE -->	
-	<div class="container-fluid" style="padding-top: 20px;">
+	<div class="container-fluid work" >
 		<div class="row-fluid ">
-			<div class="span4" style="padding-left: 15px; padding-top: 8px;">
-				<a href="index.html"><img src="img/logo_dark.svg" style="width: 110px;"></a>
+			<div class="span3">
+				<a href="index.html"><img class="logo" src="img/logo_dark.svg"></a>
 			</div>
-			<div class="span8 menu">
+			<div class="span5 menu">			
 				<a href="#">contact </a>
-				<a href="why_we.html">advantages</a>
+				<a href="why_we.html">why we</a>
 				<a href="#">about</a>
 				<a href="work.html">work</a>
+			</div>
+			<div class="span4">
+				<div class="number">+38 099 321 73 47</div>
+				<div class="call">
+					<a href="#" id="call">request for a callback</a>
+				</div>
 			</div>
 		</div>
 		<div class="row-fluid ">
@@ -147,11 +65,11 @@
 		</div>		
 	</div>
 	<div class="container-fluid footer">
-		<div class="row-fluid">
-			<div class="span3" style="padding-top: 61px; width: 155px; margin-right: 155px;">
+		<div class="row-fluid footer_row">
+			<div class="span3 footer_logo">
 				<a href="index.html"><img src="img/logo_white.svg" /></a>
 			</div>
-			<div class="span8" style="padding-left: 17px;">
+			<div class="span8">
 				<div class="socials">
 					<a href="#"><img src="img/p.svg" /></a>
 					<a href="#"><img src="img/t.svg" /></a>

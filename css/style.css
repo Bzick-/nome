@@ -7,43 +7,47 @@
 		src: url(HelveticaNeueCyr-Thin.otf);
    }
 	.why_we {
+		margin-top: 20px;
 		max-width: 980px;
-		margin: 0 auto;
-		
+		margin-left: auto;
+		margin-right: auto;
 	}
 	.work {
+		margin-top: 20px;
 		max-width: 980px;
-		margin: 0 auto;
+		margin-left: auto;
+		margin-right: auto;
 	}
-	
 	.index {
 		margin-top: -20px;
-		margin-right: -20px;
+		padding-right: 0px;
 	}
 	.blok1 {
-		height: 200px;
 		background: #000;
 		margin-top: 20px;
 		margin-left: 30px;
 	}
+	.logo {
+		padding-left: 15px; 
+		padding-top: 11px;
+		width: 110px;
+	}
 	.nav {
 		float: right;
 		font-size: 17.2pt;
+		padding-top: 25px;
 	}
 	.nav li {
 		text-align: right;
 		margin-top: 30px;
 	}
 	.right {
-	float: right;
+
 	}
 	.left {
-		
+		width: inherit;
 		height: 100%;
 		position: fixed;
-	}
-	.picture {
-		position: absolute;
 	}
 	.blur img {
 		-webkit-transition: all 0.5s ease;
@@ -97,6 +101,10 @@
 	}
 	.call a:hover{
 		text-decoration:none;
+	}
+	.nome-make_row {
+		margin-top:83px; 
+		padding-left:15px;
 	}
 	.nome {
 		height: 60px;
@@ -188,20 +196,33 @@
 		max-width: 980px;
 		margin: 0 auto;
 	}
+	.footer_row .footer_logo {
+		padding-top: 61px; 
+		width: 155px; 
+		margin-right: 155px;
+	}
 	.menu-footer a {
-
-		font-family: Helvetica-thin;
+		opacity: 0.5;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-size: 10pt;
 		color: #fff;
 		float: left;
 		text-align: left;
 		margin-right: 15px;
+	}	
+	.menu-footer a:hover{
+		opacity:1;
+		text-decoration:none;
 	}
 	.socials {
+		padding-top: 75px;
 		padding-left: 17px;
 	}
+	.socials a:hover img:hover{
+		opacity:1;
+	}
 	.socials a img{
-		padding-top: 75px;
+		opacity: 0.5;
 		height: 31px;
 		width: 31px;
 	}
@@ -242,7 +263,7 @@
 		margin: 0px;
 		border-radius: 0px;
 	}
-	.button{
+	.modalbox .button{
 		background-color: black;
 		color: white;
 		margin-top: 20px;
